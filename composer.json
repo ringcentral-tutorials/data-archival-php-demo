@@ -1,0 +1,31 @@
+{
+  "name": "ringcentral-demos-data-archival",
+  "type": "library",
+  "description": "Sample demos on how to leverage data archival with RingCentral REST API. https://developers.ringcentral.com",
+  "keywords": [
+    "php",
+    "sdk",
+    "ringcentral",
+    "connect",
+    "platform",
+    "api"
+  ],
+  "homepage": "http://developers.ringcentral.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anil Kumar",
+      "email": "anil.kumar@ringcentral.com"
+    },
+    {
+      "name": "RingCentral, Inc.",
+      "email": "devsupport@ringcentral.com"
+    }
+  ],
+  "require": {
+    "ringcentral/ringcentral-php": "^1.1",	
+    "aws/aws-sdk-php": "2.*",
+    "dropbox/dropbox-sdk": "1.1.*",
+    "vlucas/phpdotenv": "^2.2"
+  }
+}

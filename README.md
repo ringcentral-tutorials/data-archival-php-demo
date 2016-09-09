@@ -1,4 +1,4 @@
-# ringcentral-demos-data-archival - BETA
+# ringcentral-demos-data-archival
 A Sample PHP command line application to : Download Call Logs , Call Recordings, Messages etc
 
 **Please Keep in mind that this is not a Production ready Application but just a sample demo**

@@ -27,20 +27,15 @@ A Sample PHP command line application to : Download Call Logs , Call Recordings,
 ```sh
 $ git clone https://github.com/anilkumarbp/ringcentral-demos-data-archival.git
 ```
-
-2. cd into `ringcentral-demos-data-archival`. Run the Composer command to install the packages
- 
+2. cd into `ringcentral-demos-data-archival`. Run the Composer command to install the packages  
 Install composer (**If you do not have Composer installed yet**):
-     
 ```sh
 $ curl -sS https://getcomposer.org/installer | php
 ```
-
 3. Install the packages using composer  
 ```sh
 $ composer install
 ```
-
 4. Create a `.env` file within the same folder and the contents as **shown below** and configure your RingCentral Account details:
 
 For ex:  
@@ -76,52 +71,6 @@ RC_SkipDownloadDropbox=
 
 ```sh
 $ php index.php
-```
-
-
-
-## Using the PHAR package 
-
-Download the PHAR file: [`Click Here for PHAR file`](https://github.com/anilkumarbp/RingCentral-Call-Generator-Recordings-Downloader/releases/download/0.1.2/RC_CallRecordings_Download.phar)
-
-```sh
-$ wget https://github.com/anilkumarbp/RingCentral-Call-Generator-Recordings-Downloader/releases/download/0.1.2/RC_CallRecordings_Download.phar
-```
-
-cd into the folder where the PHAR file is downloaded and create a .env file as shown above: (alternatively you could create a .env using the vi editor)
-
-```php
-$ vim .env
-```
-copy the contents from `.env.example` into `.env` file as below and enter the RC account details:
-```php
-
-RC_AppKey= 							
-RC_AppSecret= 
-RC_Server= 
-RC_Username= 
-RC_Extension= 
-RC_Password= 
-RC_fromPhoneNumber= 
-RC_toPhoneNumber= 
-RC_dateFrom= 
-RC_dateTo= 
-RC_callRecordingsCount= 
-amazonAccessKey= 
-amazonSecretKey= 
-dropBoxkey= 
-dropBoxsecret= 
-RC_SkipCallLog=                  
-RC_SkipDownload=     
-RC_SkipDownloadS3= 
-RC_SkipDownloadDropbox=  
-
-```
-
-Execute the PHAR file
-
-```php
-$ php RC_CallRecordings_Download.phar
 ```
 
 

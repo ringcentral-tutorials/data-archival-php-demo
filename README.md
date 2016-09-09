@@ -27,7 +27,6 @@ A Sample PHP command line application to : Download Call Logs , Call Recordings,
 ```sh
 $ git clone https://github.com/anilkumarbp/ringcentral-demos-data-archival.git
 ```
-
 2. cd into `ringcentral-demos-data-archival`. Run the Composer command to install the packages
  
  Install composer (**If you do not have Composer installed yet**):
@@ -35,12 +34,10 @@ $ git clone https://github.com/anilkumarbp/ringcentral-demos-data-archival.git
 ```sh
 $ curl -sS https://getcomposer.org/installer | php
 ```
-
 3. Install the packages using composer
 ```sh
 $ composer install
 ```
-
 4. Create a `.env` file within the same folder and the contents as **shown below** and configure your RingCentral Account details:
 
 For ex: To run callRecording.php script make `RC_SkipDownload= False`

@@ -66,13 +66,11 @@ RC_SkipDownloadS3=
 RC_SkipDownloadDropbox=  
 
 ```
-
-5. Run the script:
+ 5. Run the script:
 
 ```sh
 $ php index.php
 ```
-
 
 # Basic Usage
 

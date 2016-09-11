@@ -3,9 +3,7 @@ A Sample PHP command line application to : Download Call Logs , Call Recordings,
 
 **Please Keep in mind that this is not a Production ready Application but just a sample demo**
 
-![APP screenshots](docs/Recordings.png) 
  
-
 # Requirements
 
 - PHP 5.3.29+
@@ -15,9 +13,9 @@ A Sample PHP command line application to : Download Call Logs , Call Recordings,
 # Configuration Requirements
 
 - Adding **ReadCallRecording** permission  
-  *** please contact `devsupport@ringcentral.com` with the name of your RingCentral Application to add the Advanced Permission
+  ** please contact `devsupport@ringcentral.com` with the name of your RingCentral Application to add the Advanced Permission
 - Select the application type = **Server Only ( NO UI )**  and scope = `Private`   
-  *** This is a mandatory application type for this demo 
+  ** This is a mandatory application type for this demo 
 
 # Installation
 

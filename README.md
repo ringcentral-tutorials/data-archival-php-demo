@@ -19,6 +19,8 @@ A Sample PHP command line application to : Download Call Logs , Call Recordings,
 
 # Installation
 
+![demo](docs/tty.gif)
+
 
 ## Clone the Repository **( Recommended )**
 

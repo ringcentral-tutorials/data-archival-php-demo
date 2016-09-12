@@ -38,7 +38,7 @@ try {
       $dbxClient = new dbx\Client($accessToken, "PHP-Example/1.0");
 
       // RC call logs
-      $callRecordings = $platform->get('/account/~/extension/~/call-log', array(
+      $callRecordings = $platform->get('/account/~/call-log', array(
         'type' => 'Voice',
         'withRecording' => 'True'))
         ->json()->records;

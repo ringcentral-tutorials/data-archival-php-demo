@@ -48,7 +48,7 @@ $skipMessageStore = $_ENV['RC_SkipMessageStore'];
 	if ($skipDownloadS3!="True" || $skipDownloadS3=="") {
 		print "Test 3: callRecording_S3.php\n";
 		print "Downloading Recordings to S3\n";
-	    require(__DIR__ . '/demo/callRecording_S3.php');
+	    require(__DIR__ . '/demo/callRecording_AmazonS3.php');
 	} else {
 		print "Test 3: callRecording_S3.php - skipping...\n";
 	}

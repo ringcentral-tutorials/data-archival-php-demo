@@ -30,9 +30,6 @@ echo "\n";
         // Register the stream wrapper from an S3Client object
         $client->registerStreamWrapper();
 
-        // create a bucket
-        // $client->createBucket(array('Bucket' => 'myRecording'));
-
         // Constants
         $status = "Success";
         $timePerRecording = 10;
@@ -95,10 +92,9 @@ echo "\n";
 
                 $start = microtime(true);
 
-                $filename = "s3://checkintocashtest/recording_${'recordingID'}.${ext}";
-
-                // $s3FileName = "s3://".$_ENV['amazonS3Bucket'].'/'.$callLog['filePath'].'.'.$recording['ext'];
                 // Write the file to S3 Bucket
+                $filename = "s3://".$_ENV['amazonS3Bucket']."/Recordings/"."${dateFrom}/"."recording_${recordingID}.${ext}";
+
                 file_put_contents($filename, $apiResponse->raw());
 
                 if(filesize($filename) == 0) {
